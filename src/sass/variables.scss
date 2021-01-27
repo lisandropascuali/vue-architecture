@@ -1,0 +1,38 @@
+// Globals
+$body-font-family: 'Roboto', sans-serif !default;
+$border-radius-root: 10px;
+$font-size-root: 15px;
+$snackbar-content-font-size: 14px;
+$material-dark: (
+    'background': #13131a,
+    'expansion-panels': (
+      'focus': #494949,
+      'background-color': #1c1c24
+    ),
+    'navigation-drawer': #1c1c24,
+    'toolbar': #1c1c24,
+    'app-bar': #1c1c24,
+    'bottom-navigation': #1c1c24,
+    'tabs': #1c1c24,
+    'bg-color': #1c1c24,
+    'fg-color': #1c1c24,
+);
+
+.theme--dark.v-navigation-drawer:not(.v-navigation-drawer--floating)
+  .v-navigation-drawer__border {
+  color: #1c1c24;
+  background-color: #1c1c24;
+}
+$material-light: (
+    'background': #f7f7f8,
+    'expansion-panels': (
+      'focus': #494949,
+      'background-color': #ffffff
+    ),
+    'navigation-drawer': #3f3f3f,
+    'toolbar': #ffffff,
+    'app-bar': #ffffff,
+    'bottom-navigation': #ffffff,
+);
+
+
