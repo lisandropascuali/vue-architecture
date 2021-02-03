@@ -55,6 +55,12 @@ export const actions = {
         icon: 'mdi-server',
         route: '/vuex',
         childrens: []
+      },
+      {
+        name: 'User',
+        icon: 'mdi-server',
+        route: '/user',
+        childrens: []
       }
     ]
     commit('SET_MENU', menu)

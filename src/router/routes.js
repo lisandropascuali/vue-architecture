@@ -31,5 +31,10 @@ export default [
     path: '/vuex',
     name: 'Vuex',
     component: () => import('../views/TheVuex.vue')
+  },
+  {
+    path: '/user',
+    name: 'User',
+    component: () => import('../views/TheUser.vue')
   }
 ]
